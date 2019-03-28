@@ -1,0 +1,27 @@
+Source: golang-jsouthworth-etm
+Section: devel
+Priority: extra
+Maintainer: John Southworth <jx756k@att.com>
+Build-Depends:
+ debhelper (>= 9),
+ dh-golang,
+ golang-go,
+ golang-jsouthworth-dyn-dev,
+ golang-jsouthworth-immutable-dev
+Standards-Version: 3.9.8
+Homepage: https://jsouthworth.net/go/etm
+
+Package: golang-jsouthworth-etm-dev
+Architecture: all
+Depends:
+ golang-jsouthworth-dyn-dev,
+ golang-jsouthworth-immutable-dev,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Epochal time model helpers for go
+ This library implements primatives for the epochal time model as
+ defined in the Clojure programming language. These primatives are
+ useful for creating concurrent code that is easy to reason about.
+ .
+ This package contains the source.

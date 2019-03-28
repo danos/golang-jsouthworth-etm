@@ -1,0 +1,23 @@
+golang-jsouthworth-etm (1.0-1) unstable; urgency=medium
+
+  * Initial import of agent and atom
+  * Closer to a working implementation
+  * atom: Use dyn.Apply to apply Swap functions
+  * atom: Implement a more comprehensive test
+  * atom: atomically load the pointer
+  * atom: breakout behavior into reuseable parts
+  * agent: rework to use immutable/queue and unsafe/ref
+  * agent: add tests
+  * agent: add example from clojure docs as test and example
+  * agent: add documenation
+  * atom: add documentation
+  * Add License
+  * Add README.md
+  * add travis-ci and coveralls support
+  * ref: add documentation
+  * atom: Fix test when there is only one CPU
+  * refactor unsafe to be an internal package
+  * atom: don't fail tests if there is no contention
+  * etm: add watchers
+
+ -- John Southworth <jx756k@att.com>  Wed, 27 Mar 2019 20:24:23 -0700
