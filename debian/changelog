@@ -20,4 +20,4 @@ golang-jsouthworth-etm (1.0-1) unstable; urgency=medium
   * atom: don't fail tests if there is no contention
   * etm: add watchers
 
- -- John Southworth <jx756k@att.com>  Wed, 27 Mar 2019 20:24:23 -0700
+ -- John Southworth <jx756k@att.com>  Tue, 09 Jul 2019 09:29:40 -0700
