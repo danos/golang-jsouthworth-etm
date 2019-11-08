@@ -1,3 +1,10 @@
+golang-jsouthworth-etm (1.0-2) unstable; urgency=medium
+
+  * etm: use lock-free MPSC node-based queue instead of immutable queue.
+  * etm: add atom/agent fastpath
+
+ -- John Southworth <jx756k@att.com>  Fri, 08 Nov 2019 12:08:41 -0800
+
 golang-jsouthworth-etm (1.0-1) unstable; urgency=medium
 
   * Initial import of agent and atom
