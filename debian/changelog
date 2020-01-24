@@ -1,3 +1,9 @@
+golang-jsouthworth-etm (1.0.2-1) unstable; urgency=medium
+
+  * atom: Fix race in TestIgnore
+
+ -- John Southworth <jx756k@att.com>  Fri, 24 Jan 2020 14:32:20 -0800
+
 golang-jsouthworth-etm (1.0.1-1) unstable; urgency=medium
 
   * etm: use lock-free MPSC node-based queue instead of immutable queue.
